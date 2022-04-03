@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Consumer2\\Consumer2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Consumer2\\Consumer2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Consumer2\\Consumer2.csproj",
+        "projectName": "Consumer2",
+        "projectPath": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Consumer2\\Consumer2.csproj",
+        "packagesPath": "C:\\Users\\SahaBT Yazılım\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Consumer2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SahaBT Yazılım\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\SahaBT Yazılım\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SahaBT Yazılım\\Projects\\rabbitmqMasstransit\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SahaBT Yazılım\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
